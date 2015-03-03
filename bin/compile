@@ -16,8 +16,8 @@ ls $build_dir
 cd $build_dir
 
 echo "install bower + grunt"
-echo npm install -g bower grunt-cli
+npm install -g bower grunt-cli
 echo "bower install"
-echo bower install
+bower install
 echo "grunt"
-echo grunt
+grunt
