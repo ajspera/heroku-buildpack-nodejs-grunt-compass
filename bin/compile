@@ -186,6 +186,8 @@ ls $build_dir/node_modules
 
     status "Running bower install"
     $build_dir/node_modules/.bin/bower install
+    status "Running grunt heroku:$NODE_ENV task"
+    $build_dir/node_modules/.bin/grunt heroku:$NODE_ENV
   fi
 )
 
